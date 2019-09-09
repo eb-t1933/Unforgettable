@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="main-container">
+
+  <div class="post">
+
+    <h1>{{ page.title }}</h1>
+    <p>
+      {{ page.date | date_to_string }}
+      {% if page.type == 'Unforgettable People' %}
+        &mdash; <a href="/unforgettables/people.html">
+      {% elsif page.type == 'Unforgettable Places' %}
+        &mdash; <a href="/unforgettables/places.html">
+      {% elsif page.type == 'Unforgettable Phenomena' %}
+        &mdash; <a href="/unforgettables/phenomena.html">
+      {% endif %}
+      {{ page.type }}</a>
+    </p>
+
+    {{ content }}
+
+  </div>
+
+</div>

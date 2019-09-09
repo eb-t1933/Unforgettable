@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="main-container">
+
+  <div class="type-category">
+
+    <h1>{{ page.type }}</h1>
+
+    <ul class="type-posts">
+      {% assign filtered_posts = site.posts | where: 'type', page.type %}
+      {% for post in filtered_posts %}
+        <li><a href="{{ post.url }}">{{post.title}}</a></li>
+      {% endfor %}
+    </ul>
+
+    <a href="/" class="home-button">&larr;</a>
+
+  </div>
+
+</div>

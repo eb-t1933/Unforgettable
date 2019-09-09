@@ -1,0 +1,73 @@
+h1 {
+ font-family: Avenir;
+ font-size: 2.5em;
+}
+
+body {
+  margin-top: 0;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+p, li {
+  font-family: Athelas;
+}
+
+ul {
+  list-style-type: georgian;
+}
+
+.home-button {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 99vh;
+}
+
+.main-navigation {
+
+}
+
+.post {
+  max-width: 90vw;
+}
+
+.type-category {
+
+}
+
+.type-posts {
+  padding-left: 5em;
+}
+
+.unforgettable {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  font-family: Avenir;
+}
+
+.unforgettable-link {
+  color: black;
+}
+
+.unforgettable-link:hover {
+  color: gray;
+}
+
+.unforgettable-list {
+  padding-inline-start: 0px;
+
+}

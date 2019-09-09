@@ -1,0 +1,14 @@
+---
+title: Home
+---
+<div class="main-container">
+  <div class="main-navigation">
+    <ul class="unforgettable-list">
+      {% for unforgettable in site.unforgettables %}
+        <li class="unforgettable">
+          <h1><a href="{{ unforgettable.url }}" class="unforgettable-link">{{ unforgettable.type }}</a></h1>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
