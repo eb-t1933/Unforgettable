@@ -12,7 +12,7 @@ ul { list-style-type: georgian; }
 
 .home-button { font-weight: bolder; font-size: 1.5em; }
 
-.main-container { display: flex; align-items: center; justify-content: center; height: 90vh; }
+.main-container { display: flex; align-items: center; justify-content: center; height: 99vh; }
 
 .post { max-width: 90vw; }
 
