@@ -3,13 +3,8 @@ h1 {
  font-size: 2.5em;
 }
 
-html {
-  height: 100%;
-}
-
 body {
   margin-top: 0;
-  height: 100%;
 }
 
 a {
@@ -38,7 +33,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 99vh;
 }
 
 .main-navigation {

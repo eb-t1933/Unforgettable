@@ -1,8 +1,6 @@
 h1 { font-family: Avenir; font-size: 2.5em; }
 
-html { height: 100%; }
-
-body { margin-top: 0; height: 100%; }
+body { margin-top: 0; }
 
 a { color: gray; text-decoration: none; }
 
@@ -14,7 +12,7 @@ ul { list-style-type: georgian; }
 
 .home-button { font-weight: bolder; font-size: 1.5em; }
 
-.main-container { display: flex; align-items: center; justify-content: center; height: 100%; }
+.main-container { display: flex; align-items: center; justify-content: center; height: 99vh; }
 
 .post { max-width: 90vw; }
 
