@@ -2,8 +2,6 @@ collections:
   unforgettables:
    output: true
 
-base-url: /Unforgettable
-
 defaults:
   - scope:
       path: ""
@@ -19,3 +17,5 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+baseurl: /Unforgettable
