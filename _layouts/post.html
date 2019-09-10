@@ -9,11 +9,11 @@ layout: default
     <p>
       {{ page.date | date_to_string }}
       {% if page.type == 'Unforgettable People' %}
-        &mdash; <a href="/unforgettables/people.html">
+        &mdash; <a href="{{ site.baseurl }}/unforgettables/people.html">
       {% elsif page.type == 'Unforgettable Places' %}
-        &mdash; <a href="/unforgettables/places.html">
+        &mdash; <a href="{{ site.baseurl }}/unforgettables/places.html">
       {% elsif page.type == 'Unforgettable Phenomena' %}
-        &mdash; <a href="/unforgettables/phenomena.html">
+        &mdash; <a href="{{ site.baseurl }}/unforgettables/phenomena.html">
       {% endif %}
       {{ page.type }}</a>
     </p>
