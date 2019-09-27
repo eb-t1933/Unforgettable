@@ -7,12 +7,12 @@ layout: default
 
     <h1>{{ page.type }}</h1>
 
-    <ul class="type-posts">
+    <ol reversed class="type-posts">
       {% assign filtered_posts = site.posts | where: 'type', page.type %}
       {% for post in filtered_posts %}
         <li><a href="{{ site.baseurl }}/{{ post.url }}">{{post.title}}</a></li>
       {% endfor %}
-    </ul>
+    </ol>
 
     <a href="{{ site.baseurl }}/" class="home-button">&larr;</a>
 
